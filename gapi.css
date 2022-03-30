@@ -1,6 +1,8 @@
 #map {
   height: 400px;
-  width: 100%;
+  width: 79.6%;
+  float: right;
+  position: relative;
 }
 
 h3 {
@@ -19,12 +21,14 @@ h3 {
   padding-left: 5px;
 }
 #contactForm {
-  background-color: aliceblue;
-  width: fit-content;
+  background-color: gray;
+  /* width: fit-content; */
+  width: 20.4%;
+  border: 2px solid black;
 }
 
 #subject {
-  width: 97.5%;
+  width: 96.3%;
 }
 #message {
   width: 97.5%;
@@ -34,4 +38,12 @@ h3 {
   top: 97px;
   z-index: 999;
   left: 25px;
+}
+#name,
+#email {
+  width: 50%;
+}
+
+input {
+  margin: 1px;
 }
