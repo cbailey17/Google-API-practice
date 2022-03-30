@@ -1,12 +1,17 @@
 #map {
   height: 400px;
-  width: 79.6%;
+  width: 75.6%;
   float: right;
-  position: relative;
+  /* position: relative; */
+  clear: right;
 }
 
 h3 {
   text-align: center;
+}
+#container {
+  display: flex;
+  position: static;
 }
 
 .locationDisp {
@@ -25,6 +30,7 @@ h3 {
   /* width: fit-content; */
   width: 20.4%;
   border: 2px solid black;
+  /* display: flex; */
 }
 
 #subject {

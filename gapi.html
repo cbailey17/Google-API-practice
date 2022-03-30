@@ -8,25 +8,26 @@
     
   </head>
   <body>
-    <div id="contactForm">
-        <h3>Camerons Google Maps API</h3>
-        <form action="#">
-            <div style="display: flex">
-                <input type="text" id="name" placeholder="Name">
-                <input type="text" id="email" placeholder="Email">
-            </div>
-            <input id="subject" type="text" placeholder="Subject">
-            <textarea name="message" placeholder="Message" id="message" cols="30" rows="10"></textarea>
-            <!-- <button id="sendMessage">Send Message!</button> -->
-        </form>
+    <div id="container">
+      <div id="contactForm">
+          <h3>Camerons Google Maps API</h3>
+          <form action="#">
+              <div style="display: flex">
+                  <input type="text" id="name" placeholder="Name">
+                  <input type="text" id="email" placeholder="Email">
+              </div>
+              <input id="subject" type="text" placeholder="Subject">
+              <textarea name="message" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+              <!-- <button id="sendMessage">Send Message!</button> -->
+          </form>
+      </div>
+      <!-- <div class="locationDisp">
+          <h2>Cameron Bailey</h2>
+          <h2>San Diego, CA, USA</h2>
+          <h2 id="email">a.cameronbailey@gmail.com</h2>
+      </div> -->
+      <div id="map"></div>
     </div>
-    <div class="locationDisp">
-        <h2>Cameron Bailey</h2>
-        <h2>San Diego, CA, USA</h2>
-        <h2 id="email">a.cameronbailey@gmail.com</h2>
-    </div>
-    <div id="map"></div>
-    <div id="mapDark"></div>
 
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMaACClBxCiVLMiQYrzgA_1cDIaSdJp4Y&callback=initMap&v=weekly&channel=2"
