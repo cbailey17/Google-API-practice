@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+
+    <script src="gapi.js"></script>
+    <link rel="stylesheet" href="gapi.css">
+    
+  </head>
+  <body>
+    <div id="contactForm">
+        <h3>Camerons Google Maps API</h3>
+        <form action="#">
+            <div style="display: flex">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+            </div>
+            <input id="subject" type="text" placeholder="Subject">
+            <textarea name="message" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+            <!-- <button id="sendMessage">Send Message!</button> -->
+        </form>
+    </div>
+    <div class="locationDisp">
+        <h2>Cameron Bailey</h2>
+        <h2>San Diego, CA, USA</h2>
+        <h2 id="email">a.cameronbailey@gmail.com</h2>
+    </div>
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMaACClBxCiVLMiQYrzgA_1cDIaSdJp4Y&callback=initMap&v=weekly&channel=2"
+      async
+    ></script>
+  </body>
+</html>

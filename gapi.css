@@ -1,0 +1,37 @@
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.locationDisp {
+  height: 80px;
+  width: 10rem;
+  background-color: lightblue;
+  border: 2px solid gray;
+}
+
+.locationDisp h2 {
+  font-size: 12px;
+  padding-left: 5px;
+}
+#contactForm {
+  background-color: aliceblue;
+  width: fit-content;
+}
+
+#subject {
+  width: 97.5%;
+}
+#message {
+  width: 97.5%;
+}
+.locationDisp {
+  position: relative;
+  top: 97px;
+  z-index: 999;
+  left: 25px;
+}
